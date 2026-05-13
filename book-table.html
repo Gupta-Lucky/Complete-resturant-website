@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klove Pizzeria | Book a Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="compact-header">
+    <nav class="navbar">
+      <a class="brand" href="index.html">Klove</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links"><a href="index.html">Home</a><a href="menu.html">Our Menu</a><a href="contact.html">Contacts</a><a href="about.html">About Us</a><a class="nav-cta active" href="book-table.html">Book a Table</a></div>
+    </nav>
+    <div class="page-hero"><p class="eyebrow">Reserve Your Seat</p><h1>Book a Table</h1></div>
+  </header>
+
+  <main class="form-page">
+    <section class="form-layout reverse">
+      <form class="paper-form whatsapp-form" data-form-type="Table Booking">
+        <label>Name<input name="name" type="text" required></label>
+        <label>Phone<input name="phone" type="tel" required></label>
+        <label>Guests<input name="guests" type="number" min="1" max="30" required></label>
+        <label>Date<input name="date" type="date" required></label>
+        <label>Time<input name="time" type="time" required></label>
+        <label>Special Request<textarea name="message" rows="5"></textarea></label>
+        <button class="btn btn-gold" type="submit">Submit Booking</button>
+      </form>
+      <div class="booking-note">
+        <h2>Your cozy corner is waiting</h2>
+        <p>Send your reservation details directly on WhatsApp. Our team will confirm availability and table timing.</p>
+        <img src="https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Restaurant table with pizza">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">Klove</a>
+    <div class="footer-grid">
+      <p>22 Pizza Street, Connaught Place, New Delhi 110001</p>
+      <a href="tel:+919263413181">+91 9263413181</a>
+      <div class="socials"><a href="https://facebook.com" aria-label="Facebook">f</a><a href="https://twitter.com" aria-label="Twitter">x</a><a href="https://instagram.com" aria-label="Instagram">ig</a><a href="https://youtube.com" aria-label="YouTube">yt</a></div>
+    </div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="menu.html">Our Menu</a><a href="contact.html">Contacts</a><a href="about.html">About Us</a><a href="book-table.html">Book a Table</a></div>
+    <small>© 2026 Klove Pizzeria</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
